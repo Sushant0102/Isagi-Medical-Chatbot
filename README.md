@@ -28,5 +28,26 @@ conda activate isagi-medibot
 
 ### Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
 
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# run the following command to store embeddings to pinecone
+python store_index.py
+
+# Finally run the following command
+python app.py
+
+### Now,
+
+open up localhost:
+
+### Techstack Used:
+
+Python
+LangChain
+Flask
+GPT
+Pinecone
+
 
 
